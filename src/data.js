@@ -1,7 +1,6 @@
 export const processingMessages = [
   'Checking the brief',
   'Scrutinising',
-  'Wow',
   'Hold on...sending some thoughts',
 ];
 

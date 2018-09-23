@@ -57,12 +57,9 @@ class Checking extends Component {
       this.setState({ message: processingMessages[2] });
     }, 6000);
     setTimeout(() => {
-      this.setState({ message: processingMessages[3] });
-    }, 9000);
-    setTimeout(() => {
       const { showResults } = this.props;
       showResults();
-    }, 12000);
+    }, 9000);
   }
 
   render() {
