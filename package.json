@@ -14,7 +14,8 @@
     "react-dom": "^16.5.2",
     "react-dropzone": "^5.1.0",
     "react-scripts": "1.1.5",
-    "styled-components": "^3.4.9"
+    "styled-components": "^3.4.9",
+    "viewport-units-buggyfill": "^0.6.2"
   },
   "scripts": {
     "start": "react-scripts start",

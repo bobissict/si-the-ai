@@ -5,6 +5,8 @@ import Landing from './components/Landing/Landing';
 import Checking from './components/Checking/Checking';
 import Result from './components/Result/Result';
 
+require('viewport-units-buggyfill').init();
+
 const Wrapper = styled.div`
   text-align: center;
   height: 100vh;
