@@ -73,7 +73,7 @@ class Result extends Component {
       <Wrapper>
         {resultNumber && <Eyes type={this.handleEyes(resultNumber)} />}
         <Text>{message}</Text>
-        <Button onClick={onRestart}>Push back?</Button>
+        <Button onClick={onRestart}>Try again?</Button>
       </Wrapper>
     );
   }
